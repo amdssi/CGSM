@@ -17,7 +17,7 @@ function scene:create( event )
     pa.y = display.contentHeight - pa.height/2 - MARGIN
 
     pa:addEventListener("tap", function (event)
-        composer.gotoScene("capa", {
+        composer.gotoScene("pagina6", {
             effect = "slideRight",
             time = 500
         });
